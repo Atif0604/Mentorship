@@ -144,9 +144,9 @@ h3 {
 }
 
 
-.programCards{
+/* .programCards{
   min-height: 680px;
-}
+} */
 @media screen and (max-width: 600px) {
     .navbar {
         list-style-type: none;
