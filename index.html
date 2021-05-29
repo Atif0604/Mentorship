@@ -1,230 +1,318 @@
 <!DOCTYPE html>
-<html>
-<head>
-	 <link rel="stylesheet" href="style.css">
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<title>TechTable</title>
-</head>
-  <div id="home">
-       <div class="navbar">
-            <div class="nav-right" >
-                <li><a class="active" href="#home">Home</a></li>
-                <li><a href="#programs">Programs</a></li>
-                <li><a href="#mentorForm">Mentor Form</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </div>  
-        </div>
-        </header>
-        <div class="content-wrap pt-5 text-center">
-            <h2 style="color:#fff600;" class="pt-5"><b>JOIN THE MENTORSHIP, BE THE EXPERT</b></h1>  <!-- #fff600 -->
-            <h3 style="color:#fff600;" class="pt-3"><b>From Zero to Hero</b></h2>
-        </div>
-  </div>
-
-
-
-
-
-
-  <div id="programs" style="padding-top: 40px">
-        <h2 class="text-center"><a href="#" style="color:#fff600">OUR PROGRAMS OFFERED<a></h2>
-        <div class="card-deck m-5">
-        <div class="col-md-6 col-lg-6 col-xl-6 col-sm-12 p-3">
-        <div class="card programCards" id="card1">
-          <img class="card-img-top" src="Images/web.jpg" alt="Web Development">
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title">Web Development</h5>
-            <p class="card-text">Web development is the building and maintenance of websites; it’s the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience.It is the building and maintenance of websites</p>
-            <button type="button" class="button mt-auto">Apply Now</button>
+    <link rel="stylesheet" href="style.css" />
+    <title>Mentorship Page</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark shadow-sm fixed-top navbar-expand-md navbar-expand-sm bg-light">
+      <div class="p-8 container-fluid" >
+          <a href="#home" class="navbar-brand">
+            <img
+            src="images/TT logo.png"
+            alt="TechTable"
+            class="img-fluid"
+        /> </a>
+        <div class=" d-nn d-md-flex">
+          
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link active" href="#programs" ><h15> Our Program</h15></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#join"><h15> Join</h15></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active atif" href="#testimonials"><h15>Testimonials</h15></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#contact"><h15> Contact Us</h15></a>
+            </li>
+          </ul>
           </div>
         </div>
       </div>
-       <div class="col-md-6 col-lg-6 col-xl-6  col-sm-12 p-3">
-        <div class="card programCards">
-          <img class="card-img-top" src="Images/app.jpg" alt="App Development">
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title">App Development</h5>
-            <p class="card-text">Mobile app development is the act or process by which a mobile app is developed for mobile devices. These applications can be pre-installed on phones during manufacturing platforms, or delivered as web applications using server-side or client-side.
-            </p>
-          <button type="button" class="button mt-auto">Apply Now</button>
-          </div>
+    </nav>
+    <div class="p-6 bg-info1" id="home">
+        <div class=" p-11">
+            <h11 style="color: white;">Join Mentorship, Be the expert </h11>
+            <h2 style="color: white;">From Zero to Hero</h2>
         </div>
-      </div>
-       <div class="col-md-6 col-lg-6 col-xl-6  col-sm-12 p-3">
-        <div class="card programCards">
-          <img class="card-img-top" src="Images/Graphic.jpg" alt="Graphic Design">
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title">Graphic Design</h5>
-            <p class="card-text">Graphic design is a craft where professionals create visual content to communicate messages. By applying visual hierarchy and page layout techniques, designers use typography and pictures to meet users’ specific needs and focus on the logic of displaying elements in interactive designs, to optimize the user experience.</p>
-            <button type="button"  class="button mt-auto">Apply Now</button>
+    </div>
+    
+    
+    <div class="p-12 mb-3 bg-info " id="programs">
+      <div class="container td">
+        <br><br><h14>Our Program</h14><br>
+        <h13>We provide various programs for tech enthusiasts out there.</h13>
+        <br><h13>Apply Now and kick start your journey!!!</h13><br><br><br>
+        <div class="row row-cols-2 row-cols-md-2 row-cols-sm-1 row-cols-xl-4 g-4">
+          <div class="col">
+            <div class="card shadow bg-light" >
+              <img src="images/web.jpg" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Web Development</h5>
+                <p class="card-text">Learn to develop interactive web applications. We will cover everything from basic to advance.</p>
+                <a href="#" class="btn shadow btn-dark">Apply Now</a>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-       <div class="col-md-6 col-lg-6 col-xl-6  col-sm-12 p-3">
-        <div class="card programCards">
-          <img class="card-img-top" src="Images/softskills.jpg" alt="Soft Skills and personality Development">
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title">Soft Skills and Personality Development</h5>
-            <p class="card-text"> The soft skills training provides strong practical orientation to the students and helps them in building and improving their skills in communication, the effective use of English, business correspondence, presentations, team building, leadership, time management, group discussions, interviews, and inter-personal skills</p>
-            <button type="button" class="button mt-auto">Apply Now</button>
+          <div class="col">
+            <div class="card shadow bg-light" >
+              <img src="images/app.jpg" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">App Development</h5>
+                <p class="card-text">Learn to develop interactive android and ios applications. You will learn from absolute basics skills.</p>
+                <a href="#" class="btn shadow btn-dark">Apply Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow bg-light" >
+              <img src="images/Graphic.jpg" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Graphic Design</h5>
+                <p class="card-text">This program helps to understand fundamental skills needed to develop sophisticated designs.</p>
+                <a href="#" class="btn shadow btn-dark" >Apply Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow bg-light" >
+              <img src="images/softskills.jpg" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Soft Skills</h5>
+                <p class="card-text">Learn about the significance of soft skills and facilitate an all-round development of personality.</p>
+                <a href="#" class="btn shadow btn-dark">Apply Now</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-
-
-
-<div id="form" style="padding-top: 40px">
-<div class="formbody" id="mentorForm">
-  <h3 class="text-center" style="color:#fff600;"><b>To Join as a Mentor</b></h3>
-  <form class="m-5">
-    <div class="form-group row">
-        <label for="name" class="col-sm-2 col-form-label" style="color:white;">Name</label>
-        <div class="col-sm-10">
-          <input type="text" class="form-control" id="name" placeholder="Enter Your Name">
+   
+    <div class="p-2 mb-3 bg-info2 bg-gradient " id="join">
+      <div class="container td">
+        <br><br><h12>Join as a Mentor</h12><br><br>
+        
+        <form class=" p-4 shadow-lg form-floating row g-1 bg-info rounded validate" id="form">
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="my" placeholder="Name">
+            <label for="floatingPassword">Name</label>
+          </div>
+          <div class="form-floating mb-3 gy-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating mb-3 gy-3">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Phone">
+            <label for="floatingPassword">Phone Number</label>
+          </div>
+          <div class="form-floating mb-3 gy-3">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">College Name</label>
+          </div>
+          <div class="form-floating mb-3 gy-3">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Year of Graduation</label>
+          </div>
+          <div class="form-floating mb-3 gy-3">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Domain of Expertise</label>
+          </div>
+          <div class="form-floating mb-3 gy-3">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Share some of your past work</label>
+          </div>
+          <div class="col-12 gy-4">
+            <button type="submit" class="btn shadow-lg btn-danger" onclick="myFunction()">Join</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    
+    <div class="p-13 mb-5 bg-info3 text-white" id="testimonials">
+      <div class="container td">
+      <h1>Testimonials</h1><br><br>
+      <div class="row row-cols-2 row-cols-md-2 row-cols-sm-1 row-cols-xl-4 g-2">
+        <div class="col">
+          <div class="card shadow-lg bg-info2" style="min-height: 17rem;">
+            <div class="card-body">
+              <h3 class="card-title" style="color: black;">Lisa</h3>
+              <h6 class="card-title" style="color: black;">Student</h6>
+              <p class="card-text" style="color: black;">Thanks to the teaching staff for all the help! This is a fabulous course and I would definitely recommend it to anyone interested in web development. Now I am satisfied as I got placed.</p>
+            </div>
+          </div>
         </div>
-      </div>
-    <div class="form-group row">
-      <label for="mail" class="col-sm-2 col-form-label" style="color:white;">Email</label>
-      <div class="col-sm-10">
-        <input type="email" class="form-control" id="email" placeholder="Email">
-      </div>
-    </div>
-    <div class="form-group row">
-        <label for="phone" class="col-sm-2 col-form-label" style="color:white;">Mobile</label>
-        <div class="col-sm-10">
-          <input type="tel" class="form-control" id="phone" placeholder="Mobile Number">
+        <div class="col">
+          <div class="card shadow-lg bg-info2" style="min-height: 17rem;">
+            <div class="card-body">
+              <h3 class="card-title" style="color: black;">Lisa</h3>
+              <h6 class="card-title" style="color: black;">Student</h6>
+              <p class="card-text" style="color: black;">Thanks to the teaching staff for all the help! This is a fabulous course and I would definitely recommend it to anyone interested in web development. Now I am satisfied as I got placed.</p>
+            </div>
+          </div>
         </div>
-      </div>
-    <div class="form-group row">
-      <label for="college" class="col-sm-2 col-form-label" style="color:white;">College Name</label>
-      <div class="col-sm-10">
-        <input type="text" class="form-control" id="college" placeholder="College Name">
-      </div>
-    </div>
-    <div class="form-group row">
-      <label for="year" class="col-sm-2 col-form-label" style="color:white;">Year Of Graduation</label>
-      <div class="col-sm-10">
-        <input type="text" class="form-control" id="year" placeholder="Year Of Graduation">
-      </div>
-    </div>
-     <div class="form-group row">
-      <label for="domain" class="col-sm-2 col-form-label" style="color:white;">Domain Of Expertise</label>
-      <div class="col-sm-10">
-        <input type="text" class="form-control" id="domain" placeholder="Domain Of Expertise">
-      </div>
-    </div>
-   <div class="form-group row">
-      <label for="work" class="col-sm-2 col-form-label" style="color:white">Share Your work</label>
-      <div class="col-sm-10">
-        <textarea class="form-control" id="work" placeholder="Share Some of Your work"></textarea>
-      </div>
-    </div>  
-</form>
-   <div class="text-center">
-      <button type="submit" class="btn btn-primary align-center">Submit</button>
-  </div>
-</div>
-</div>
-
-
-
-
-
-<div id="testimonials" style="padding-top: 40px">
-        <h2 class="text-center"><a href="#" style="color:#fff600;">Student Testimonials<a></h2>
-        <div class="card-deck m-5">
-        <div class="col-md-6 col-lg-3 col-sm-12 p-3">
-        <div class="card ">
-          <img class="card-img-top" src="Images/s1.jpg" alt="Web Development">
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title">John</h5>
-            <p class="card-text">"Hello, everyone! I'm John.This Mentorship training is awesome.I recommend you to take part in this.</p>
+        <div class="col">
+          <div class="card shadow-lg bg-info2" style="min-height: 17rem;">
+            <div class="card-body">
+              <h3 class="card-title" style="color: black;">Lisa</h3>
+              <h6 class="card-title" style="color: black;">Student</h6>
+              <p class="card-text" style="color: black;">Thanks to the teaching staff for all the help! This is a fabulous course and I would definitely recommend it to anyone interested in web development. Now I am satisfied as I got placed.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-lg bg-info2" style="min-height: 17rem;">
+            <div class="card-body">
+              <h3 class="card-title" style="color: black;">Lisa</h3>
+              <h6 class="card-title" style="color: black;">Student</h6>
+              <p class="card-text" style="color: black;">Thanks to the teaching staff for all the help! This is a fabulous course and I would definitely recommend it to anyone interested in web development. Now I am satisfied as I got placed.</p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-md-6 col-lg-3 col-sm-12 p-3">
-         <div class="card ">
-          <img class="card-img-top" src="Images/s1.jpg" alt="Web Development">
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title">John</h5>
-            <p class="card-text">"Hello, everyone! I'm John.This Mentorship training is awesome.I recommend you to take part in this.</p>
+      </div>
+    </div>
+    
+
+    <div class="container overflow-hidden bg-light " id="contact">
+      <div class="row row-cols-md-1 row-cols-sm-1 row-cols-lg-2 row-cols-xl-2 gy-5">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+          <div class="p-7">
+            <h10>>>> GET IN TOUCH</h10>
           </div>
         </div>
-      </div>
-      <div class="col-md-6 col-lg-3 col-sm-12 p-3">
-        <div class="card">
-          <img class="card-img-top" src="Images/s1.jpg" alt="Web Development">
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title">John</h5>
-            <p class="card-text">"Hello, everyone! I'm John.This Mentorship training is awesome.I recommend you to take part in this.</p>
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+          <div class="p-8"> 
+          <img
+                      src="img/TT logo.png"
+                      alt="TechTable"
+                      alt class="img-fluid"
+                  />
+                </div> 
+        </div>
+
+        <div class="col-7">
+          <div class="p-5 ">
+            
+            <div class="">
+              <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                  <div class=" p-1 ">
+                    <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="https://web.whatsapp.com/"
+                  >
+                    <img
+                      src="img/whatsapp.png"
+                      alt="WhatsApp"
+                      alt class="img-fluid1"
+                  /><h9> WhatsApp Group</h9></a></div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                  <div class=" p-1 ">
+                    <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="#"
+                  >
+                    <img
+                      src="img/facebook.png"
+                      alt="Facebook"
+                      alt class="img-fluid1"
+                  /><h9> Facebook Page</h9></a></div>
+                </div>
+              
+                
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                  <div class=" p-1 ">
+                    <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="#"
+                  >
+                    <img
+                      src="img/linkedin.png"
+                      alt="LinkedIn"
+                      alt class="img-fluid1"
+                  /><h9> LinkedIn Page</h9></a></div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                  <div class="p-1 ">
+                    <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="#"
+                  >
+                    <img
+                      src="img/instagram.png"
+                      alt="Instagram"
+                      alt class="img-fluid1"
+                  /><h9> Instagram Page</h9></a></div>
+                </div>
+              
+              
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                  <div class="p-1 ">
+                    <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="#"
+                  >
+                    <img
+                      src="img/youtube.png"
+                      alt="Youtube"
+                      alt class="img-fluid1"
+                  /> <h9> Youtube Channel</h9></a> </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                  <div class="p-1 ">
+                    <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="https://web.telegram.org/#/login"
+                  >
+                    <img
+                      src="img/telegram.png"
+                      alt="Telegram"
+                      class="img-fluid1"
+                  /> <h9> Telegram Group</h9></a> </div>
+                </div>
+                
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-        <div class="col-md-6 col-lg-3 col-sm-12 p-3">
-         <div class="card">
-          <img class="card-img-top" src="Images/s1.jpg" alt="Web Development">
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title">John</h5>
-            <p class="card-text">"Hello, everyone! I'm John.This Mentorship training is awesome.I recommend you to take part in this.</p>
+        <div class="col-4">
+          <div class="bbline p-15">
+            <h8> Location</h8>
+            <p> Nirmaan IITM, Chennai 600036</p>
+            <h8> Email Address</h8>
+            <p> admin@techtable.co.in</p>
+            <h8> Mobile Number</h8>
+            <p1> <br>9940332489</p1>
           </div>
         </div>
+      
+        
       </div>
-  </div>
+      <div class="p-9">
+      </div>
+    </div>
+    <div class="p-3 bg-info5 td">
+        <h4>Developed with &#10084;&#65039; by Atif</h4>
+    </div>
 
-
-  
-
-<footer class="bg-dark text-center text-white" id="contact">
-  <!-- Grid container -->
-  <h2 class="p-3">Contact Us</h2>
-  <div class="container p-4 pb-0">
-    <!-- Section: Social media -->
-    <section class="mb-4">
-      <!-- Facebook -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-       <i class="fa fa-facebook"></i
-      ></a>
-
-      <!-- Twitter -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fa fa-twitter"></i
-      ></a>
-
-      <!-- Google -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fa fa-google"></i
-      ></a>
-
-      <!-- Instagram -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fa fa-instagram"></i
-      ></a>
-
-      <!-- Linkedin -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fa fa-linkedin"></i
-      ></a>
-
-      <!-- Github -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fa fa-github"></i
-      ></a>
-    </section>
-    <!-- Section: Social media -->
-  </div>
-  <!-- Grid container -->
-
-  <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2021 Copyright:
-    <a class="text-white" href="https://mdbootstrap.com/">Techtable.com</a>
-  </div>
-  <!-- Copyright -->
-</footer>
-</body>
+    <script>
+       function myFunction() {
+    alert("Your response is being recorded!");
+  }
+    </script>
+  </body>
 </html>
-
-
