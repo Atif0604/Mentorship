@@ -81,6 +81,15 @@ hr {
 hr:not([size]) {
   height: 1px;
 }
+.card{
+  transition: .1s;
+}
+
+.card:hover {
+  transform:scale(1.1);
+  transition: all .5s ease-in-out 0.3s;
+  border-radius: 40px;
+}
 
 .h1,
 .h2,
